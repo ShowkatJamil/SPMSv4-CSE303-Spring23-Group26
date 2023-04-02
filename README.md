@@ -13,7 +13,7 @@ This project is based on the student performance data.
 - Xampp
 - VS Code
 ## Login Credentials
-### Student
+### Students
 - ID: 1531176; Password: 12345
 - ID: 1910876; Password: 1234567	
 
