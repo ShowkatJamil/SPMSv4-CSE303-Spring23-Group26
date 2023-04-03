@@ -29,7 +29,7 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="EmployeeDashboard.php">Dashboard</a>
+                <a class="nav-link active" aria-current="page" href="employeeDashboard.php">Dashboard</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
