@@ -120,11 +120,11 @@
                   GPA Analysis 
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">School/Depertment/Program-wise</a></li>
-                  <li><a class="dropdown-item" href="#">Course-wise</a></li>
-                  <li><a class="dropdown-item" href="#">Instructor-wise</a></li>
-                  <li><a class="dropdown-item" href="#">Instructor(Chosen Course)</a></li>
-                  <li><a class="dropdown-item" href="#">VC/Dean/Head-Wise</a></li>
+                  <li><a class="dropdown-item" href="school_department_program_stats.php">School/Depertment/Program-wise</a></li>
+                  <li><a class="dropdown-item" href="courseWisePerformance.php">Course-wise</a></li>
+                  <li><a class="dropdown-item" href="instructorWisePerformance.php">Instructor-wise</a></li>
+                  <li><a class="dropdown-item" href="instructorWiseChosenCourse.php">Instructor(Chosen Course)</a></li>
+                  <li><a class="dropdown-item" href="instructorWisePerformance.php">VC/Dean/Head-Wise</a></li>
                 </ul>
               </li>
               <li class="nav-item">
