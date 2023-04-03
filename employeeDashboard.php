@@ -36,8 +36,8 @@
                   PLO analysis 
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">PLO analysis with Department/Program/School Average</a></li>
-                  <li><a class="dropdown-item" href="#">PLO Analysis (Overall, CO wise, Course Wise)</a></li>
+                  <li><a class="dropdown-item" href="ploAnalysisDepartmentProgramSchoolAverage.php">PLO analysis with Department/Program/School Average</a></li>
+                  <li><a class="dropdown-item" href="ploAnalysisOverall.php">PLO Analysis (Overall, CO wise, Course Wise)</a></li>
             
                 </ul>
               </li>
@@ -46,16 +46,19 @@
                   PLO Achievement stats
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">PLO Comparison(Student)</a></li>
-                  <li><a class="dropdown-item" href="#">PLO Comparison(Course)</a></li>
-                  <li><a class="dropdown-item" href="#">PLO Comparison(Program)</a></li>
-                  <li><a class="dropdown-item" href="#">PLO Comparison(School)</a></li>
-                  <li><a class="dropdown-item" href="#">PLO Comparison(Department)</a></li>
+                  <li><a class="dropdown-item" href="ploComparisonStudent.php">PLO Comparison(Student)</a></li>
+                  <li><a class="dropdown-item" href="ploComparisonCourse.php">PLO Comparison(Course)</a></li>
+                  <li><a class="dropdown-item" href="ploComparisonProgram.php">PLO Comparison(Program)</a></li>
+                  <li><a class="dropdown-item" href="ploComparisonSchool.php">PLO Comparison(School)</a></li>
+                  <li><a class="dropdown-item" href="ploComparisonDepartment.php">PLO Comparison(Department)</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Spider Chart Analysis</a>
+                <a class="nav-link active" aria-current="page" href="spiderChart.php">Spider Chart Analysis</a>
               </li>
+
+
+
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Data Entry 
@@ -68,22 +71,50 @@
                     </a>
                       <ul class="nav-item dropdown">                    <!--make it similar to data entry dropdown-->
                         <li><a class="dropdown-item" href="addExam.php">Add Exam</a></li>
-                        <li><a class="dropdown-item" href="#">Evaluate Exam Script</a></li>
-                        <li><a class="dropdown-item" href="#">submit Grade</a></li>    <!--new feature for spms v4-->
+                        <li><a class="dropdown-item" href="viewStudentAnswerScript.php">Evaluate Exam Script</a></li>
+                        <li><a class="dropdown-item" href="uploadGrade.php">Upload Grades</a></li>    <!--new feature for spms v4-->
                     </ul>
                     </li>   
                                     
-                  <li><a class="dropdown-item" href="#">Create Course Outline</a></li>
+                  <li><a class="dropdown-item" href="CreateCourseOutline.php">Create Course Outline</a></li>
                 </ul>
 
 
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">View Course Outline</a>
+                <a class="nav-link active" aria-current="page" href="viewCourseOutline.php">View Course Outline</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Enrollment Statistics</a>
-              </li>
+
+
+
+
+
+            <!-- multi level dropdown-->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Enrollment Statistics
+                </a>
+
+                  <ul class="dropdown-menu">
+
+                  <li><a class="dropdown-item" href="enrollmentStatistics.php">Student Enrollment Statistics</a></li>
+
+
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Student Performance Statistics
+                    </a>
+                      <ul class="nav-item dropdown">                    <!--make it similar to data entry dropdown-->
+                        <li><a class="dropdown-item" href="school_department_program_stats.php"> School/dept/Program-wise </a></li>
+                        <li><a class="dropdown-item" href="courseWisePerformance.php">Course-wise</a></li>
+                        <li><a class="dropdown-item" href="instructorWisePerformance.php">Instructor-wise</a></li>
+                        <li><a class="dropdown-item" href="instructorWiseChosenCourse.php">Instructor-wise(Chosen course)</a></li>
+                        <li><a class="dropdown-item" href="instructorWisePerformance.php">VC/Dean/Head-wise</a></li>
+                    </ul>
+                    </li>   
+                                     
+                </ul>
+
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   GPA Analysis 
@@ -99,12 +130,6 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="logout.php">LogOut</a>
               </li>
-
-
-
-
-
-              
             </ul>
           </div>
         </div>
