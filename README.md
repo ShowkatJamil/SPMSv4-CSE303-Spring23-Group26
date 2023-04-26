@@ -9,6 +9,7 @@ This project is based on the student performance data.
 - HTML
 -  CSS
 -  PHP
+-Javascript
 ### Softwares
 - MySQL
 - VS Code
