@@ -10,7 +10,7 @@ This project is based on the student performance data.
 -  CSS
 -  PHP
 ### Softwares
-- Xampp
+- MySQL
 - VS Code
 ## Login Credentials
 ### Students
