@@ -4,7 +4,7 @@
 This project is based on the student performance data.
 
 
-![](dashboardLogo.png)
+![](eDashboardForGit.png)
 
 
 
