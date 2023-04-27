@@ -3,13 +3,14 @@
 
 This project is based on the student performance data.
 
+❮img src="dashboardLogo.png" width="100" ❯
 
 ## Dependencies
 ### Languages
 - HTML
 -  CSS
 -  PHP
--Javascript
+-  Javascript
 ### Softwares
 - MySQL
 - VS Code
