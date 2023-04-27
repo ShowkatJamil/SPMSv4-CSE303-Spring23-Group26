@@ -3,7 +3,12 @@
 
 This project is based on the student performance data.
 
-❮img src="dashboardLogo.png" width="100" ❯
+
+![](dashboardLogo.png)
+
+
+
+
 
 ## Dependencies
 ### Languages
